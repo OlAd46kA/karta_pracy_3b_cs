@@ -1,0 +1,46 @@
+using System;
+					
+public class Program{
+	public static void Main() {
+		// zad 1
+		// for (int i = 1; i < 31; i++){
+            // Console.WriteLine(i);
+	     //}
+		 // zad 2
+		/*for (int i = 1; i < 10; i++){
+			if (i % 2 != 0){
+				Console.WriteLine(Math.Pow(i, 2));
+			}
+		}
+		*/
+		// zad 3
+		/*for (int i = 1000; i < 10000; i++){
+			if (i % 379 == 0){
+				Console.WriteLine(i);
+			}
+		}*/
+		// zad 4
+		/*for (int i = 10; i < 100; i++){
+			if (i % 5 == 0 && i % 6 == 0 || i % 5 != 0 && i % 6 != 0 && i % 11 == 0){
+				Console.WriteLine(i);
+			}
+		}*/
+		// zad 5
+		/*int n = int.Parse(Console.ReadLine());
+		int sum = 0;
+		for (int i = 1; i <= n; i++){
+			sum += i;
+		}
+		Console.WriteLine(sum);*/
+		
+		// zad 6
+		/*int k = int.Parse(Console.ReadLine());
+		int sum = 0;
+		for (int i = 1; i <= k*2; i += 2){
+			sum += i;
+		}
+		Console.WriteLine(sum);*/
+		
+		
+	}
+}
