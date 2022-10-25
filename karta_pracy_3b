@@ -41,6 +41,41 @@ public class Program{
 		}
 		Console.WriteLine(sum);*/
 		
+		//zad 7
+		/*int k = int.Parse(Console.ReadLine());
+		int sum = 0;
+		for (int i = 1; i <= k*2+10; i += 2){
+			sum += i;
+		}
+		Console.WriteLine(sum);*/
 		
+		// zad 8
+	  /*double w = int.Parse(Console.ReadLine());
+		int l = int.Parse(Console.ReadLine());
+		double sum= w;
+		double cap = 0;
+		for (int i = 1; i <= l; i++)
+		{
+		cap = sum * 0.06;
+    	sum += cap;
+		}
+		Console.WriteLine(Math.Round(sum, 2));*/
+		// zad 9
+	 /*int n = int.Parse(Console.ReadLine());
+		int sum = 0;
+		int a = 0;
+		for (int i = 0; i <= n; i++){
+    		a = i * 100 + 21;
+			sum += a;
+		}
+		Console.WriteLine(sum);*/
+		
+		// zad 10
+		 for (int i = 1; i < 1000; i++){
+    	 	if ((i % 100 == Math.Sqrt(i)) || (i % 10 == Math.Sqrt(i))) {
+				Console.WriteLine(i);
+			}
+		 }
+        
 	}
 }
